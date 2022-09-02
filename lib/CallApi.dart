@@ -7,7 +7,7 @@ Future<dynamic> globalcall()async{
     var uri=Uri.https("covid-19-coronavirus-statistics.p.rapidapi.com","/v1/total");
     final Response=await http.get(uri, headers: {
       'x-rapidapi-host': "covid-19-coronavirus-statistics.p.rapidapi.com",
-      'x-rapidapi-key': "80993ad235msha35c6f295a22308p1d9c3djsnfca854cdee30",
+      'x-rapidapi-key': "Api key",
       'useQueryString': "true",
     }
     );
